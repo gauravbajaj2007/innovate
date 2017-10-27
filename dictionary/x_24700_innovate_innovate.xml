@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Innovate" max_length="40" name="x_24700_innovate_innovate" type="collection">
+        <element label="Comitted" max_length="40" name="comitted" type="boolean"/>
         <element label="Description" max_length="400" name="description" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Summary" max_length="250" name="summary" type="string"/>
